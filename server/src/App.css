@@ -1,0 +1,80 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px dashed #ccc;
+  color: darkslategrey;
+}
+
+.btn {
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ccc;
+
+}
+
+.green {
+  background-color: rgb(53, 196, 53);
+}
+
+.btn.green:hover {
+  background-color: green;
+}
+
+.red {
+  background-color: rgb(228, 64, 64);
+}
+
+.btn.red:hover {
+  background-color: red;
+}
+
+.input-search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-search input {
+  width: 300px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+
+.tabel th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
